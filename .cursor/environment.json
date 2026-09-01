@@ -1,0 +1,13 @@
+{
+  "name": "alert-proxy",
+  "install": "npm ci",
+  "terminals": [
+    {
+      "name": "server",
+      "command": "node server.js"
+    }
+  ],
+  "ports": [
+    8080
+  ]
+}
